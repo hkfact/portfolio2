@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Mohamed Ali Mani — full-stack developer building React, Node.js and PostgreSQL applications."
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Mohamed Ali Mani — Full-Stack Developer</title>
+	</head>
+
+	<body>
+		<a class="skip" href="#about">Skip to content</a>
+		<nav>
+			<a class="brand" href="#top">Mohamed Ali Mani</a>
+			<div class="nav-links">
+				<a href="#about">About</a>
+				<a href="#experience">Experience</a>
+				<a href="#projects">Projects</a>
+				<a href="#technologies">Technologies</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<button
+				class="theme-toggle"
+				type="button"
+				aria-label="Toggle color theme"
+			>
+				☀️
+			</button>
+		</nav>
+
+		<main id="top">
+			<header class="hero">
+				<h1>
+					I build web apps where every customer's data stays their
+					own.
+				</h1>
+				<p>
+					Full-stack developer working with React, Node.js and
+					PostgreSQL. Currently finishing a Bachelor of Computer
+					Science in Software Engineering in Sousse, Tunisia.
+				</p>
+				<div class="hero-actions">
+					<a class="btn primary" href="#projects">See my work</a>
+					<a class="btn" href="#contact">Get in touch</a>
+				</div>
+			</header>
+
+			<section id="about">
+				<h2>About</h2>
+				<div class="prose">
+					<p>
+						I'm a full-stack developer focused on React, Node.js /
+						Express and TypeScript. I like the parts of a product
+						that have to be right: permissions, validation, and a
+						database schema that can't drift into bad data.
+					</p>
+					<p>
+						I'm always picking up new tools, and I enjoy building
+						the broader skills that make a project ship, from Docker
+						to Figma.
+					</p>
+				</div>
+				<dl class="facts">
+					<div>
+						<dt>Education</dt>
+						<dd>
+							EPI Sup — Bachelor of Computer Science, Software
+							Engineering
+						</dd>
+					</div>
+					<div>
+						<dt>Languages</dt>
+						<dd>
+							Arabic (native), English (fluent), French
+							(conversational)
+						</dd>
+					</div>
+					<div>
+						<dt>Based in</dt>
+						<dd>Sousse, Tunisia</dd>
+					</div>
+				</dl>
+			</section>
+
+			<section id="experience">
+				<h2>Experience</h2>
+				<article class="entry">
+					<div class="entry-head">
+						<h3>Full-Stack Engineer, freelance</h3>
+						<p class="meta">
+							Logaris, Sousse · Jul 2026 – Sep 2026
+						</p>
+					</div>
+					<p>
+						Built a multi-tenant payroll and salary management
+						platform (PostgreSQL, Express, React, Node.js) that
+						serves several organizations from one codebase.
+					</p>
+					<ul>
+						<li>
+							Kept each organization's data strictly separate from
+							the others.
+						</li>
+						<li>
+							Designed role-based access control with hierarchical
+							permissions, enforced in custom backend middleware.
+						</li>
+						<li>
+							Implemented JWT authentication with session
+							management and protected routes on the frontend.
+						</li>
+						<li>
+							Modeled the database with constraints and indexes to
+							protect data integrity.
+						</li>
+						<li>
+							Built role-based dashboards with drill-down views
+							into pay history.
+						</li>
+					</ul>
+					<a
+						class="text-link"
+						href="https://github.com/hkfact/payroll_app"
+						target="_blank"
+						rel="noopener noreferrer"
+						>View the code on GitHub</a
+					>
+				</article>
+			</section>
+
+			<section id="projects">
+				<h2>Projects</h2>
+				<div class="project-grid">
+					<article class="project">
+						<h3>Payroll management platform</h3>
+						<p>
+							Multi-tenant payroll for multiple organizations,
+							with tenant isolation, hierarchical roles and
+							pay-history dashboards.
+						</p>
+						<p class="stack">
+							PostgreSQL · Express · React · Node.js
+						</p>
+						<a
+							class="text-link"
+							href="https://github.com/hkfact/payroll_app"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Source code</a
+						>
+					</article>
+					<article class="project">
+						<h3>Marketplace platform</h3>
+						<p>
+							Full-stack marketplace with CRUD for product
+							listings and a REST API over a relational schema.
+							Guards against SQL injection and XSS with
+							server-side validation, parameterized queries and
+							input sanitization.
+						</p>
+						<p class="stack">
+							PostgreSQL · Express · React · Node.js
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="technologies">
+				<h2>Technologies</h2>
+				<dl class="ledger">
+					<div>
+						<dt>Languages</dt>
+						<dd>Python, TypeScript, JavaScript, C, C++, SQL</dd>
+					</div>
+					<div>
+						<dt>Frontend</dt>
+						<dd>React, Next.js, Tailwind, Bootstrap</dd>
+					</div>
+					<div>
+						<dt>Backend</dt>
+						<dd>
+							Node.js, Express, REST APIs, JWT authentication,
+							data validation
+						</dd>
+					</div>
+					<div>
+						<dt>Databases</dt>
+						<dd>
+							PostgreSQL, joins, views, RPC functions, triggers,
+							indexing
+						</dd>
+					</div>
+					<div>
+						<dt>Tools</dt>
+						<dd>Git, GitHub, Docker, Figma, Postman</dd>
+					</div>
+				</dl>
+			</section>
+
+			<section id="contact">
+				<h2>Contact</h2>
+				<p class="prose">
+					Open to freelance work and internships. The quickest way to
+					reach me is email.
+				</p>
+				<p class="mail">
+					<a href="mailto:mohamed.ali.mani@proton.me"
+						>mohamed.ali.mani@proton.me</a
+					>
+				</p>
+				<div class="contact-links">
+					<a class="btn" href="https://github.com/hkfact">GitHub</a>
+					<a class="btn" href="tel:+21653461026">+216 53 461 026</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>© <span id="year"></span> Mohamed Ali Mani</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
